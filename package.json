@@ -1,0 +1,24 @@
+{
+  "name": "articles-to-csv",
+  "version": "0.0.1",
+  "description": "Lê arquivo xml dos anais e gera um csv correspondente.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xml",
+    "anais",
+    "SBSI",
+    "csv"
+  ],
+  "author": "Bruno Lebtag <brlebtag@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:brlebtag/articles-to-csv.git"
+  }
+}
