@@ -98,7 +98,7 @@ async function processarManual() {
 }
 
 async function main() {
-    processaXML(await processarManual());
+    processaXML(await processarArgv());
 }
 
 main();
